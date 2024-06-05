@@ -1,3 +1,4 @@
+import Link from "next/link"
 
 
 function Footer() {
@@ -7,45 +8,34 @@ function Footer() {
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">About Us</h2>
           <p className="mb-4">
-            Music School is a premier institution dedicated to teaching the art
-            and science of music. We nurture talent from the ground up,
-            fostering a vibrant community of musicians.
+            Sports School is a premier institution dedicated to teaching the art
+            and science of Sports. We nurture talent from the ground up,
+            fostering a energetic community of athletes.
           </p>
         </div>
         <div>
           <h2 className="text-white text-lg font-semibold mb-4">Quick Links</h2>
           <ul>
             <li>
-              <a
-                href="#"
+              <Link href={"/"}
                 className="hover:text-white transition-colors duration-300"
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
-                className="hover:text-white transition-colors duration-300"
-              >
-                About
-              </a>
-            </li>
-            <li>
-              <a
-                href="#"
+              <Link href={"/courses"}
                 className="hover:text-white transition-colors duration-300"
               >
                 Courses
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link href={"/contact"}
                 className="hover:text-white transition-colors duration-300"
               >
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -76,11 +66,11 @@ function Footer() {
           <h2 className="text-white text-lg font-semibold mb-4">Contact Us</h2>
           <p>New Delhi, India</p>
           <p>Delhi 10001</p>
-          <p>Email: info@musicschool.com</p>
+          <p>Email: info@sportsschool.com</p>
           <p>Phone: (123) 456-7890</p>
         </div>
         </div>
-        <p className="text-center text-xs pt-8">© 2024 Music School. All rights reserved.</p>
+        <p className="text-center text-xs pt-8">© 2024 Sports School. All rights reserved.</p>
     </footer>
   )
 }
