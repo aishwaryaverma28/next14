@@ -8,7 +8,7 @@
         "price": 99.99,
         "instructor": "John Doe",
         "isFeatured": true,
-        "image": "/courses/guitar.jpg" 
+        "image": "/courses/basketball.jpeg" 
       },
       {
         "id": 2,
@@ -18,7 +18,7 @@
         "price": 109.99,
         "instructor": "Jane Smith",
         "isFeatured": false,
-        "image": "/courses/piano.jpg" 
+        "image": "/courses/football.jpg" 
       },
       {
         "id": 3,
@@ -28,7 +28,7 @@
         "price": 119.99,
         "instructor": "Emily Johnson",
         "isFeatured": true,
-        "image": "/courses/vocalist.jpg" 
+        "image": "/courses/yoga.jpg" 
       },
       {
         "id": 4,
@@ -38,7 +38,7 @@
         "price": 129.99,
         "instructor": "Mike Brown",
         "isFeatured": false,
-        "image": "/courses/drumming.jpg"
+        "image": "/courses/swiming.jpg"
       },
       {
         "id": 5,
@@ -48,7 +48,7 @@
         "price": 139.99,
         "instructor": "Chris Davis",
         "isFeatured": false,
-        "image": "/courses/jazz.jpg"
+        "image": "/courses/badminton.jpg"
       },
       {
         "id": 6,
@@ -58,37 +58,17 @@
         "price": 149.99,
         "instructor": "Alex Wilson",
         "isFeatured": true,
-        "image": "/courses/music-prod.jpg"
+        "image": "/courses/Vollyball.jpg"
       },
-      {
-        "id": 7,
-        "title": "Batting Essentials",
-        "slug": "songwriting-essentials",
-        "description": "Learn the essentials of batting in cricket to find gap between the firlders and other fundamental skills.",
-        "price": 159.99,
-        "instructor": "Samantha Miller",
-        "isFeatured": false,
-        "image": "/courses/song-writing.jpg"
-      },
-      {
-        "id": 8,
-        "title": "Team Leading skiss",
-        "slug": "electronic-music-production",
-        "description": "Create a harmony with your team and guide your team ease with your team by reading their movement and paterns.",
-        "price": 169.99,
-        "instructor": "Luke Harris",
-        "isFeatured": true,
-        "image": "/courses/music-prod.jpg"
-      },
-      {
+     {
         "id": 9,
-        "title": "Squash mastery",
+        "title": "Archery mastery",
         "slug": "classical-music-history",
-        "description": "Master the Squash spoet with our comprehensive course covering all skill levels.",
+        "description": "Master the Archery sport with our comprehensive course covering all skill levels.",
         "price": 179.99,
         "instructor": "Grace Lee",
         "isFeatured": false,
-        "image": "/courses/classical-music.jpg"
+        "image": "/courses/Archery.jpeg"
       },
       {
         "id": 10,
@@ -98,7 +78,7 @@
         "price": 189.99,
         "instructor": "Ethan Moore",
         "isFeatured": true,
-        "image": "/courses/blues.jpg"
+        "image": "/courses/Squash.jpg"
       }
     ]
   }
